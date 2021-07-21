@@ -1,0 +1,61 @@
+.container{
+    height: 900px;
+
+}
+
+.card{
+    border-radius: 25px;
+    height: 420px;
+    width: 550px;
+}
+
+.mt-5{
+    margin-right: -110px;
+    margin-top: -90px;
+}
+
+.Inv{
+    margin-top: 115px;
+    color:#4F5B6E;
+}
+
+.quam{
+    font-size: 14px;
+    margin-left: 42px;
+}
+
+.bland{
+    font-size: 14px;
+    margin-left: 85px;
+    margin-top: -12px;
+}
+
+.btn-lg{
+    height: 50px;
+    width: 425px;
+    background: #F5F6F7;
+    border: none;
+}
+
+.will{
+    color:#939EAD;
+}
+
+.stil{
+    margin-left: 10px;
+    color:#4F5B6E;
+}
+
+.under{
+    text-decoration:underline solid 2px;
+}
+
+.dashb{
+    color:#4F5B6E;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.iconz{
+    margin-top: -30px;
+}

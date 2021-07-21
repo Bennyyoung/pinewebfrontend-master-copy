@@ -1,0 +1,228 @@
+
+
+  .container{
+    height: 100vh !important;
+  }
+
+  /* .form-group {
+    position: relative;
+  display: flex;
+  margin-bottom: 14px;
+  } */
+
+  /* input {
+    margin: 0 auto;
+    background-color: black;
+
+    color: white;
+    margin-top: 10px;
+    width: 300px;
+    height: 59px;
+    font-size: 22px;
+    margin-bottom: 14px;
+    max-width: 527px;
+    caret-color: yellow;
+    caret-width: 16px;
+    font-weight: bold;
+    padding: 0 10%;
+  } */
+
+
+
+  .trust{
+    left: 10%;
+    right: 27.86%;
+    margin-top: 18.2%;
+    bottom: 61.95%;
+
+
+
+    font-family: Graphik;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+
+
+    letter-spacing: 0.008em;
+
+    color: #000000;
+  }
+
+  .truck{
+    left: 10%;
+    right: 12.68%;
+    margin-top: 10.69%;
+    bottom: 45.24%;
+
+
+
+    font-family: Graphik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+
+
+    letter-spacing: 0.004em;
+
+
+
+    color: #4F5B6E;
+  }
+
+  .africa{
+    left: 10%;
+    right: 10.86%;
+    margin-top: 36.95%;
+    bottom: 6.5%;
+
+
+
+    font-family: Graphik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+
+
+    letter-spacing: 0.004em;
+
+
+
+    color: #4F5B6E;
+  }
+
+  .img-thumbnail{
+    background:#FCF8E8;
+    border: none;
+    height: 30px;
+    width: 50px;
+    margin-top: 4%;
+
+
+}
+
+
+
+.clap{
+    width: 10px;
+height: 36px;
+left: 860px;
+top: 168px;
+
+
+
+font-family: Graphik;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.006em;
+
+
+
+color: #081A38;
+
+}
+
+.click{
+    text-decoration: underline;
+    text-decoration-style: solid;
+    font-family: Graphik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.password-toggle-icon{
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  z-index: 1000;
+  cursor: pointer;
+}
+
+/* .ty{
+  margin-top: -10px;
+  margin-right: 90px;
+}
+
+
+.tx{
+  margin-top: -10px;
+  margin-right: 90px;
+}
+
+.yt{
+  margin-top: -20px;
+  margin-left: 28px;
+}
+
+.In{
+  margin-left: 28px;
+  width: 82%;
+}
+
+.ytt{
+  margin-top: -12px;
+  margin-right: 30px;
+
+} */
+
+/* .tyy{
+  margin-top: -20px;
+  margin-right: -90px;
+} */
+
+.eye {
+  position: absolute;
+  margin-top: -25px;
+  left: 90%;
+  color:#7B7B7B;
+  margin-right: 95px;
+}
+.eye:hover {
+  color: #667470;
+  cursor: pointer;
+}
+
+/* input {
+  margin: 0 auto;
+  background-color: black;
+  opacity: 50%;
+  color: white;
+  margin-top: 10px;
+  width: 200px;
+  height: 59px;
+  font-size: 22px;
+  margin-bottom: 14px;
+  max-width: 327px;
+  padding: 0 10%;
+} */
+
+.my-30 {
+  position: relative;
+  top: 10%;
+}
+
+.p-30 {
+  padding: 100px 0;
+}
+
+p {
+  font-size: 12px;
+}
+
+.f-16 {
+  font-size: 16px;
+}
+
+
+

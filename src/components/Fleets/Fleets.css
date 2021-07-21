@@ -1,0 +1,23 @@
+.btn-a{
+    background:#F5F6F7;
+}
+
+.btn-sm{
+    border-radius: 35px;
+    height: 26px;
+    width: 80px;
+    
+}
+
+.twik{
+    height: 900px;
+}
+
+.trik{
+    height: 100px;
+    width: 900px;
+}
+
+.line{
+    margin-top: -80px;
+}

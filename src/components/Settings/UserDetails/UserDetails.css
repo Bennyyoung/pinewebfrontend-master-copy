@@ -1,0 +1,85 @@
+.Userd{
+    height: 550px;
+    width: 500px;
+    border-radius: 25px;
+    background:  #fcf4e6;
+}
+
+
+.Userd2{
+    border-radius: 20px;
+}
+
+.roleCol{
+    margin-top: 220px;
+    height: 250px;
+    width: 439px;
+}
+
+.btnd1{
+    width: 210px;
+}
+
+.btnd2{
+    width: 210px;
+    margin-left: -5px;
+}
+
+.driver{
+    margin-top: -35px;
+}
+
+.Rinfo{
+    border-radius: 20px;
+    margin-top: 25px;
+}
+
+.font-size{
+    font-size: 14px;
+}
+
+.rightItems{
+    color:#939EAD;
+}
+
+.leftItems{
+    color:#081A38;
+}
+
+.btnX{
+    border-radius: 5px;
+    font-weight: bold;
+    margin-left: 430px;
+}
+
+.Ellipse{
+    height:50px;
+    width: 50px;
+    margin-top: 25px;
+    margin-left: 210px;
+}
+
+.JrUser{
+    font-size: 14px;
+    font-weight: bold;
+    color:#081A38;
+}
+
+.userN{
+    font-size: 12px;
+    margin-top: -6px;
+    font-weight: bold;
+    color:#939EAD;
+}
+
+.edetails{
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: -18px;
+    text-decoration: underline;
+    text-decoration-style: solid;
+}
+
+/* .allRole{
+    margin-top: -50px;
+} */

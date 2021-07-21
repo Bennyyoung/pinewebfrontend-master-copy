@@ -1,0 +1,89 @@
+.mbl{
+    color:#4F5B6E;
+}
+
+.tIf{
+    margin-bottom: 100px;
+}
+
+.twi{
+    height: 500px;
+    width: 800px;
+    margin-left: 270px;
+    margin-top: -322px;
+    border-radius: 35px;
+}
+
+.Photo{
+    height:50px;
+    width: 50px;
+    margin-top: 35px;
+    margin-left: 90px;
+}
+
+.fct{
+    width: 450px;
+    margin-left: 90px;
+}
+
+.pfct{
+    margin-left: -40px;
+}
+
+.pfcty2{
+    width: 220px;
+}
+
+.dtp{
+    margin-left: 45px;
+}
+
+.rt{
+    margin-left: -50px;
+}
+
+.bty{
+    margin-left:90px;
+    width: 190px;
+}
+
+.fcty{
+    margin-top: -10px;
+    margin-right: -18px;
+}
+
+.fcty2{
+    margin-top: -10px;
+    margin-right: -18px;
+}
+
+.fcty3{
+    margin-top: -10px;
+    margin-right: -18px;
+    border: 0.5px #E2E5E8 solid;
+}
+
+.fcty4{
+    margin-top: 6px;
+    margin-right: -18px;
+    background:#F8F9FA;
+}
+
+input{
+    caret-color: yellow;
+}
+
+.cam{
+    color: #FACF19;
+    border-radius: 35px solid white;
+    margin-right: 640px;
+    padding-top: 75px;
+    font-size: 12px;
+}
+
+.bigDot{
+    margin-left: 116px;
+    margin-top: -100px;
+    font-size: 100px;
+    color: white;
+}

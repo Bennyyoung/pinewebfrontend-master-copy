@@ -1,0 +1,22 @@
+.circleT{
+    height: 50px;
+    width:50px;
+    margin-left: 220px;
+    margin-top: 30px;
+    background:#F25A68;
+    border-radius: 30px;
+    width: 60px;
+    height:60px;
+    opacity: 0.3;
+}
+
+.quest{
+    font-weight: bold;
+    font-size: 30px;
+    color:#F25A68;
+}
+
+.cont{
+    margin-left: 180px;
+}
+

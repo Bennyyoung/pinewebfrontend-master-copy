@@ -1,0 +1,112 @@
+.newUsers{
+    height: 450px;
+    width: 600px;
+}
+
+.newUserCol{
+    border-radius: 25px;
+}
+
+.newUserInv{
+    font-size: 20px;
+}
+
+.send-btn{
+    margin-left: 470px;
+    margin-top: -35px;
+}
+
+.close1{
+    background:#EEF2F5;
+    font-weight: bold;
+}
+
+.send1{
+    background:#EEF2F5;
+}
+
+.close-btn{
+    margin-top: -35px;
+    margin-left: 20px;
+    color:#E2E5E8;
+}
+
+hr.new1 {
+    border-top: 1px solid #E2E5E8;
+    width: 605px;
+    margin-left: -40px;
+  }
+
+.ex-btn{
+    margin-left: 540px;
+    margin-top: -80px;
+    font-weight: bold;
+} 
+
+.EmR{
+    width: 245px;
+    height: 50px;
+}
+
+.emRem{
+    margin-top: 70px;
+    border-radius: 10px;
+}
+
+.emrr{
+    border:2px solid #EEF2F5;
+}
+
+.emRem2{
+    margin-top: 70px;
+    margin-left: -20px;
+    border:1px solid #EEF2F5;
+    border-radius: 10px;
+}
+
+.vl3 {
+    border-left: 6px solid #EEF2F5;
+    height: 120px;
+    margin-left: 570px;
+    margin-top: -150px;
+    border-radius: 7px;
+  }
+
+  
+hr.new2 {
+    border-top: 1px solid #E2E5E8;
+    width: 535px;
+    margin-left: 30px;
+
+  }
+
+  .form2{
+      margin-top: -50px;
+  }
+
+  .form1{
+    margin-top: -40px;
+}
+
+  .semop{
+      font-weight: bold;
+      color: #939EAD;
+      font-size: 14px;
+      margin-top: -40px;
+      margin-left: 17px;
+  }
+
+  .addst{
+      text-decoration: underline;
+      text-decoration-style: #081A38 solid;
+  }
+
+#exampleFormControlSelect1{
+    color: #E2E5E8;
+    font-weight: bold;
+    /* margin-left: -30px; */
+}
+
+.ex-btn-close{
+    color:#939EAD;
+}

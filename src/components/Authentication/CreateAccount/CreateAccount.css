@@ -1,0 +1,221 @@
+/* 
+
+* {
+    box-sizing: border-box;
+  }
+
+  .container{
+    justify-content: center;
+  }
+  
+  
+  .column-1 {
+    float: left;
+    background: #FCF8E8;
+    width: 38%;
+    padding: 10px;
+    height: 600px; 
+  }
+
+  .column-2 {
+    float: right;
+    background: #FFFFFF;
+    width: 62.001%;
+    padding: 10px;
+    height: 600px; 
+  }
+  
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+  
+
+  .trust{
+    left: 10%;
+    right: 27.86%;
+    margin-top: 18.2%;
+    bottom: 61.95%;
+    
+    
+    
+    font-family: Graphik;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    
+    
+    letter-spacing: 0.008em;
+    
+    color: #000000;
+  }
+
+  .truck{
+    left: 10%;
+    right: 12.68%;
+    margin-top: 10.69%;
+    bottom: 45.24%;
+    
+    
+    
+    font-family: Graphik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    
+    
+    letter-spacing: 0.004em;
+    
+    
+    
+    color: #4F5B6E;
+  }
+
+  .africa{
+    left: 10%;
+    right: 10.86%;
+    margin-top: 36.95%;
+    bottom: 6.5%;
+    
+    
+    
+    font-family: Graphik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    
+    
+    letter-spacing: 0.004em;
+    
+    
+    
+    color: #4F5B6E;
+  }
+
+  
+
+  .img-thumbnail{
+    background:#FCF8E8;
+    border: none;
+    height: 30px;
+    width: 50px;
+    margin-top: 4%;
+    
+    
+}
+
+.clap{
+    width: 294px;
+height: 36px;
+left: 860px;
+top: 168px;
+
+
+
+font-family: Graphik;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.006em;
+
+
+
+color: #081A38;
+
+}
+
+
+
+.ty{
+    margin-top: -16px;
+}
+
+.t{
+    margin-top: -14px;
+}
+
+.yt{
+    margin-top: -18px;
+}
+
+.tzy{
+    margin-top: -12px;
+}
+
+.email{
+    margin-top: -13px;
+}
+
+.password{
+    margin-top: -13px;
+}
+
+.e-p{
+    background: #F8F9FA; 
+    
+}
+
+.sh{
+    color:#4F5B6E;
+    
+}
+
+.d{
+    padding-right: -5px;
+}
+
+::placeholder{
+    color: #939EAD;
+
+}
+
+.tc{
+    text-decoration: underline;
+    text-decoration-style: solid;
+}
+
+.police{
+    text-decoration: underline;
+    text-decoration-style: solid;
+}
+
+.radio{
+    right: 210px;
+    margin-top: -30px;
+    
+    
+}
+
+
+.radio2{
+    right: -12px;
+    margin-top: -82px;
+    
+    
+}
+
+
+.x{
+    width: 14px;
+}
+
+.bttn-2{
+    padding-left: 328px;
+}
+
+.owner{
+    margin-top: -30px;
+} */

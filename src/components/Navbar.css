@@ -1,0 +1,13 @@
+.Navbar{
+    background: #fff;
+}
+
+.btn{
+    border-radius: 10px;
+}
+
+
+.active, .btn:hover {
+    background-color: rgb(247, 152, 10);
+    color: white;
+}

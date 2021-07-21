@@ -1,0 +1,77 @@
+.addbank{
+    height: 500px;
+    width: 600px;
+    border-radius:20px;
+    margin-top: 20px;
+}
+
+.addbank2{
+    height: 400px;
+    width: 400px;
+    border-radius:20px;
+}
+
+.AddBank{
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.addBankX{
+    margin-top: -60px;
+    margin-left: 32px;
+    font-size: -80px;
+    background: #F5F6F7;
+    font-weight: bold;
+    border-radius: 5px;
+
+}
+
+.new4{
+    width: 600px;
+    margin-left: -15px;
+    margin-top: 2px;
+    color:#E2E5E8;
+    border-top: 1px solid #E2E5E8;
+}
+
+.cash{
+    color:#939EAD;
+    margin-left: 32px;
+    margin-top: 30px;
+}
+
+.cashopt{
+    width: 500px;
+    margin-left: 30px;
+    height: 50px;
+    border-radius: 8px;
+    
+}
+
+.gtcash{
+    background:#F8F9FA;
+    margin-top: 6px;
+    border-color: 1px solid #E2E5E8;
+}
+
+.btn-save{
+    width: 505px;
+    height: 50px;
+    font-weight: bold;
+    margin-top: 6px;
+    margin-left: 28px;
+    border-radius: 8px;
+}
+
+.numAct{
+    margin-top: 20px;
+    border-color: 1px solid #E2E5E8;
+}
+
+.cashRole{
+    margin-top: 10px;
+    border-color:  #E2E5E8;
+    
+    
+}
