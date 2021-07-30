@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import './App.css';
 import axiosConfig from './axiosConfig';
 import Navbar from "./components/Navbar";
-import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route, useParams, Redirect } from 'react-router-dom';
 import "bootstrap/dist/css/bootstrap.min.css";
 import Home from "./components/Home/Home/Home";
 import Support from "./components/Home/Home/Support/Support";
@@ -48,6 +48,7 @@ import { setCurrentUser } from './redux/user/user.actions';
 import { connect } from 'react-redux';
 import { history } from ".";
 import AuthPage from "./pages/auth/auth.component";
+
 
 
 // class App extends React.Component {
@@ -105,6 +106,7 @@ const app = function App() {
   let [user] = useState([]);
   user = localStorage.getItem('user');
 
+
   return (
     <>
       <div className="App">
@@ -144,12 +146,13 @@ const app = function App() {
               <Route path="/verifyaccount" component={VerifyAccount} />
               <Route path="/thanksforsigning" component={ThanksForSigning} />
               <Route path="/successfulsignUp" component={SuccessfulSignUp} />
-              <Route path="/createaccount" component={CreateAccount} />
+              <Route path="/register" component={CreateAccount} />
               <Route path="/inviteyourteam" component={InviteYourTeam} />
               {/* <Route path="/bookings" component={Bookings} /> */}
               <Route path="/invitesent" component={InviteSent} />
               <Route path="/details-assigned" component={BookingDetailsAssigned} />
-              <Route path="/details-new" component={BookingDetailsNew} />
+              {/* <Route path="/details-new/:id" component={BookingDetailsNew} /> */}
+              <Route path="/details-new/:id" component={BookingDetailsNew} />
 
 
             </div>
