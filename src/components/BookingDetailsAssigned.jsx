@@ -5,6 +5,7 @@ import { useGoogleMaps } from "react-hook-google-maps";
 import Nestle from './Nestle'
 import instance from '../axiosConfig'
 import Moment from 'react-moment'
+import { filter } from 'async'
 
 const BookingDetailsAssigned = (props) => {
  const [trips, setTrips] = useState([]);
@@ -142,7 +143,7 @@ const BookingDetailsAssigned = (props) => {
                                 {displayMarkers()}
     
                             </Map> */}
-
+          
          </div>
          <div className="col-md-5 d-none d-md-block d-lg-block bg-white" style={{ left: '45em', top: '29em', zIndex: '100', position: 'fixed', display: 'inline-flex' }}>
           <div style={{ display: "flex" }}>
@@ -156,11 +157,10 @@ const BookingDetailsAssigned = (props) => {
             <div>Car name</div>
             <div>Vehicle number</div>
            </div>
-           {/* <div style={{ width: "15%" }}><div>Rating no and star</div>
+           <div style={{ width: "15%" }}><div>Rating no and star</div>
             <div>
              Rating
-            </div>
-           </div> */}
+            </div></div>
 
           </div>
 
