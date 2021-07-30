@@ -16,13 +16,20 @@ function SuccessfulSignUp() {
  const [phoneNumber, setPhoneNumber] = useState("")
  const [accountSubtype, setAccountSubtype] = useState(["As a business", "As an individual (personal)"])
  const [isChecked, setIsChecked] = useState(false);
+<<<<<<< HEAD
  const [password, setPassword] = useState("");
+=======
+>>>>>>> 9f3ce6e562a9f0f827d0dd864bf08ac77a51d574
 
  const handleOnChange = () => {
   setIsChecked(!isChecked);
  };
 
  const AddAccountSubtype = accountSubtype.map(AddAccountSubtype => AddAccountSubtype)
+<<<<<<< HEAD
+=======
+ const [password, setPassword] = useState("");
+>>>>>>> 9f3ce6e562a9f0f827d0dd864bf08ac77a51d574
 
 
  const handleRegisterAsChange = (e) => {
@@ -40,24 +47,17 @@ function SuccessfulSignUp() {
  function successfulsignup(e) {
   e.preventDefault();
 
-  const successfulSignupData = {
+  const successfulsignupData = {
    firstName,
    lastName,
    emailAddress,
-   phoneNumber,
-   password,
-   token_name: 'web_app'
+   password
   };
 
-  instance.post("/register", successfulSignupData)
+  axios.post("http://pine.africa/api/register", successfulsignupData)
    .then(res => {
-     let data = res.data;
-     localStorage.setItem('access_token', data.token);
-     localStorage.setItem('user', data.user);
-     setCurrentUser(data.user);
     console.log(res.data)
-    window.location = '/';
-    console.log(successfulSignupData)
+    history.push('/')
    })
    .catch(function (error) {
     console.log(error)
@@ -88,13 +88,21 @@ function SuccessfulSignUp() {
         <form className="px-4 mt-5" onSubmit={successfulsignup}>
          <div style={{ display: 'flex' }}>
           <div className="form-group" style={{ width: '47%' }}>
+<<<<<<< HEAD
            <input type="text" className="form-control ty" placeholder="First Name" onChange={(e) => setFirstName(e.target.value)} value={firstName} />
+=======
+           <input type="text" className="form-control ty" id="inputEmail4" placeholder="First Name" onChange={(e) => setFirstName(e.target.value)} value={firstName} />
+>>>>>>> 9f3ce6e562a9f0f827d0dd864bf08ac77a51d574
           </div>
 
           <div style={{ width: "6%" }}></div>
 
           <div className="form-group" style={{ width: '47%' }}>
+<<<<<<< HEAD
            <input type="text" className="form-control ty" placeholder="Last Name" onChange={(e) => setLastName(e.target.value)} value={lastName} />
+=======
+           <input type="text" className="form-control ty" id="inputPassword4" placeholder="Last Name" onChange={(e) => setLastName(e.target.value)} value={lastName} />
+>>>>>>> 9f3ce6e562a9f0f827d0dd864bf08ac77a51d574
           </div>
 
          </div>
@@ -133,7 +141,11 @@ function SuccessfulSignUp() {
          </div>
 
          <div className="form-group">
+<<<<<<< HEAD
           <input type="password" className="form-control ty" id="inputAddress2" placeholder="Create password" onChange={(e) => setPassword(e.target.value)} value={password}/>
+=======
+          <input type="password" className="form-control ty" id="inputAddress2" placeholder="Create password" />
+>>>>>>> 9f3ce6e562a9f0f827d0dd864bf08ac77a51d574
          </div>
 
          <div className="form-group" style={{ display: 'flex' }}>
